@@ -1,0 +1,141 @@
+
+body{
+    
+    
+    /* https://stock.adobe.com/uk/search?k=leaf+patterns */
+    background-position: center;
+    background-image: linear-gradient(to right, rgba(143,188,143, 0.7), rgba(109,113,46, 0.8)), url(images/leafpattern.jpg);
+    
+   
+   background-size: 100vw;
+    
+     }
+ 
+  h1{
+    font-size: 7vw;
+  }   
+
+*{
+  text-align: center;
+  position: relative;
+ 
+}
+
+.parallax{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container{
+  
+  
+  opacity: 90%;
+  width: '100vw';
+}
+
+.divider{
+  background-color: goldenrod;
+  height: 0.3vh;
+  width: 30vw;
+  border-radius: 5%;
+  justify-self: center;
+}
+
+.col-md-6{
+  
+  width: 50vw;
+  align-items: center;
+  
+}
+.list{
+  display: grid;
+}
+
+span{
+  text-align: left;
+  padding: 1vh;
+}
+
+.row{
+  width: 100vw;
+  left: calc(-3 * var(--bs-gutter-x));
+  padding-top: 2vh;
+  vertical-align: middle;
+ padding-bottom: 2vh;
+  display: flex;
+  align-items: center;
+}
+
+.section1{
+  background-color: rgba(229, 237, 229, 0.1);
+
+}
+.section2{
+  background-color: rgba(27, 169, 212, 0.1);
+
+}
+
+.green:hover{
+  background-color: rgb(22, 138, 73);
+}
+
+.red:hover{
+  background-color: rgb(102, 14, 20);
+}
+
+.blue:hover{
+  background-color: turquoise;
+}
+
+button{
+ padding: auto;
+ margin: 3px;
+  border: currentColor 1px;
+  border-radius: 50%;
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -moz-transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  width: 10vw;
+  
+}
+
+button:hover, .btn:hover{
+  transform: scale(1.15);
+}
+
+input, select, textarea{
+  width: 30vw;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+input:focus, select:focus, textarea:focus{
+  background-color: cadetblue;
+  
+}
+
+header, .header{
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    
+  }
+
+img{
+  width: 30vw;
+  height: fit-content;
+  object-fit: contain;
+
+}
+.item{
+  border: 10vw aliceblue;
+  border-radius: 10%;
+  width: 50%;
+  height: 50%;
+  transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
+  object-fit: cover;
+}
+.item:hover{
+  scale: 1.05;
+
+}
